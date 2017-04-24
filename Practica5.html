@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript 2</title>
+  <link rel="stylesheet" type="text/css" href="Practica5.css">
+  <script type="text/javascript" src="Practica5.js">
+  </script>
+</head>
+<body>
+  <form>
+    Nombre: <input type="text" id="name"><br><br>
+    Corre electrónico: <input type="email" id="mail"><br><br>
+    Película:<br>
+    <input type="checkbox" id="shrek" checked="true">Shrek <br>
+    <input type="checkbox" id="panda">Kung Fu Panda <br>
+    <input type="checkbox" id="toy">Toy Story <br><br>
+    ¿Qué desea hacer?:<br>
+    <input type="radio" name="action" id="comprar">Comprar <br>
+    <input type="radio" name="action" id="rentar">Rentar <br><br>
+    Fecha: <input type="datetime-local" id="fecha"><br><br>
+    Color deseado de su bolsa: <input type="color" id="color"><br><br>
+    Días en los que desea que llegue su película: <input type="range" id="dia"><br><br>
+  </form>
+  <button type="button" onclick="registrar()" name="button">ENVIAR</button>
+  <div style="overflow-x: auto">
+    <table id="info">
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+  background: rgba(64, 178, 194, 0.62);
+  margin: 50px auto 50px auto;
+  width: 85%;
+}
+#info {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+#info td, #info th {
+  font-size: 1em;
+  border: 1px solid black;
+  padding: 3px 7px 2px 7px;
+}
+#info tr:hover {
+  background-color: rgba(158, 158, 158, 0.63)
+}
+#info th {
+  font-size: 1.1em;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  background-color: rgb(153, 128, 141);
+  color: #000000;
+}
+#info tr.renglon1 td {
+  color: #000000;
+  background-color: #EAF2D3;
+}
+#info tr.renglon2 td {
+  color: #000000;
+  background-color: white;
+}
